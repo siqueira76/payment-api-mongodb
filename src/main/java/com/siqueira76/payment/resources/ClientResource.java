@@ -27,14 +27,4 @@ public class ClientResource {
 		return ResponseEntity.ok().body(listDTO);
 	}
 	
-//	@RequestMapping(value = "/{id}", method = RequestMethod.PUT)
-//	public ResponseEntity<Void> update(@RequestBody Transaction objDto, @PathVariable String id) {
-//		User obj = service.fromDTO(objDto);
-//		obj.setId(id);
-//		obj = service.update(obj);
-//		return ResponseEntity.noContent().build(); // retorna o codigo 204
-//	}
-	
-	
-
 }
